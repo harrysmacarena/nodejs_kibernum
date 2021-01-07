@@ -24,4 +24,6 @@ git push -u origin main
 
 
 Creamos el archivo REAMD.md
-
+git add .	
+git commit -m "Commit Readme"	
+git push
