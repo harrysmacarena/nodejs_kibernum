@@ -1,0 +1,31 @@
+crear un directorio
+mkdir 05_primer_proyecto
+cd 05_primer_proyecto
+	package name:
+	version:
+	descripcion:
+	entry point:
+	test command:
+	git repository:
+	keywords:
+	author: Harrys
+	license: (ISC)
+.- revisamos el directorio y explicamos los archivos
+.- buscamos npm yargs en google
+   npm i yargs --save
+   observe que se agrego la dependencia en package.js
+   			^16.2.0  versión 16 o superior
+   también se creo el archivo package-lock.js
+   package-lock.js ==> Registro de todo lo que hace 
+                       para instalar algo
+                       no se puede modificar
+   se crea la carpeta node_modules, se instalan las líbrerías
+   			generalmente no se envían a producción
+   			con npm_install reconstruye
+
+.- npm install --save-dev nodemon  
+    Se crea "devDependencies"
+	--save-dev Propositos de desarrollo
+	--save     para que la aplicación corra
+.- procesar 01_parametros.js	
+

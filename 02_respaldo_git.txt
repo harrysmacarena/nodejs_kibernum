@@ -1,0 +1,9 @@
+git init
+git status
+crear archivo .gitignore, y agregar
+	node_modules/
+	files_out/*.txt
+git status
+	note que ya no aparecen node_modules
+git add .	
+	agrega todos los archivos
