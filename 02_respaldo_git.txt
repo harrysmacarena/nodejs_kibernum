@@ -7,3 +7,21 @@ git status
 	note que ya no aparecen node_modules
 git add .	
 	agrega todos los archivos
+git status
+	aparece en verde lo que será transmitido
+git commit -m "Commit Inicial Harrys"	
+git status
+	solo sale en rojo los archivos modificado
+
+Crear una cuenta github
+Crear un repositorio => nodejs_kibernum
+git config --global user.name "harrysmacarena"
+git config --global user.email "harrys@harrys.cl"
+git remote add origin https://github.com/harrysmacarena/nodejs_kibernum.git
+--git branch -M main
+-- Suir la rama principal
+git push -u origin main
+
+
+Creamos el archivo REAMD.md
+
